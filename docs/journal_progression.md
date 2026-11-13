@@ -11,14 +11,12 @@
 
 | Jour | Travaux | Statut |
 |---|---|---|
-| J1 | Environnement Python et bases Pandas | Terminé — exercices validés |
-| J2 | Découverte API CNAM et import des données | À confirmer |
-| J3 | Extraction diabète 2024 et contrôles qualité | À valider |
-| J4 | Référentiel géographique et jointure CNAM–COG | À confirmer |
-| J5 | Population INSEE, indicateurs d'âge, jointure et Plotly | En cours de validation |
-| J6 | Analyse statistique exploratoire | À commencer |
-
-**Légende :** Terminé / En cours / À vérifier / À commencer.
+| J1 | Environnement Python et bases Pandas | Terminé |
+| J2 | Découverte API CNAM et import des données | Terminé |
+| J3 | Extraction diabète 2024 et contrôles qualité | Terminé |
+| J4 | Référentiel géographique et jointure CNAM–COG | Terminé |
+| J5 | Population INSEE, indicateurs d'âge, jointure et Plotly | Terminé |
+| J6 | Analyse statistique exploratoire | Terminé |
 
 ---
 
