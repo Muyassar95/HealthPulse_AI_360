@@ -124,6 +124,3 @@
 - `outputs/figures/j06_statistiques_descriptives.csv`
 - `outputs/figures/j06_observations_atypiques.csv`
 
-*Les fichiers de preuve sont à confirmer selon les exports effectivement réalisés.*
-
-**Statut :** À valider avant passage au J7.
