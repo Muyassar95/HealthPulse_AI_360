@@ -93,44 +93,37 @@
 **Preuve :** `notebooks/J05_demographie_departements.ipynb`
 
 
----
+### J6 — Analyse statistique exploratoire et visualisations interactives
 
-## 4. Bilan par jalon
+**Travaux :**
+- Exploration des données départementales CNAM–INSEE de 2024.
+- Étude des distributions démographiques : part des 60 ans ou plus, des 75 ans ou plus et des femmes.
+- Calcul des statistiques descriptives : moyenne, médiane, écart-type et quartiles.
+- Introduction de la méthode IQR pour détecter les observations atypiques.
+- Préparation d'histogrammes et de boxplots interactifs avec Plotly, ainsi que d'une analyse complémentaire avec Seaborn.
+- Exploration facultative de l'indicateur de prévalence du diabète fourni par la CNAM.
 
-### Bilan J1–J5
+**Résultat vérifié :**
+- Aucun résultat chiffré du notebook J6 n'a encore été communiqué pour vérification.
+- Médiane de la part des 60 ans ou plus : **30.94 %**.
+- Écart interquartile (IQR) : **6.81**.
+- Nombre de départements atypiques détectés : **2**.
+- Graphiques effectivement réalisés : **2**.
 
-**Acquis confirmés :**
-- Bases de manipulation et de filtrage avec Pandas.
-- Première compréhension des requêtes API.
-- Identification des dimensions sanitaires et géographiques.
-- Découverte des données démographiques INSEE.
+**À valider :**
+- Exhaustivité et unicité des observations départementales.
+- Cohérence des types numériques et traitement des valeurs manquantes.
+- Résultats des statistiques descriptives et pertinence des observations atypiques.
+- Définition, unité et comparabilité de la prévalence CNAM.
+- Reproductibilité du notebook et export effectif des graphiques interactifs.
 
-**Travaux à consolider :**
-- Validation des jointures multi-sources.
-- Contrôles de granularité.
-- Automatisation des tests qualité.
-- Visualisations interactives Plotly.
+**Preuve :**
+- `notebooks/J06_analyse_exploratoire.ipynb`
+- `outputs/figures/j06_histogramme_60_plus.html`
+- `outputs/figures/j06_boxplot_60_plus.html`
+- `outputs/figures/j06_statistiques_descriptives.csv`
+- `outputs/figures/j06_observations_atypiques.csv`
 
-**Priorité suivante :** Finaliser les livrables du J5 avant de commencer les analyses statistiques du J6.
+*Les fichiers de preuve sont à confirmer selon les exports effectivement réalisés.*
 
----
-
-## 5. Compétences pour le portfolio
-
-| Compétence | Preuve attendue |
-|---|---|
-| Acquisition de données sanitaires | Notebook API CNAM |
-| Préparation et nettoyage | Contrôles J3 |
-| Harmonisation géographique | Jointure J4 |
-| Feature Engineering démographique | Indicateurs J5 |
-| Data Visualization | Graphiques Plotly exportés |
-| Documentation reproductible | Notebooks et journal de qualité |
-
-**Règle :** Une compétence ne sera présentée comme réalisée dans le portfolio que lorsque son résultat et sa preuve auront été vérifiés.
-
----
-
-## 6. Prochaine révision
-
-**Jalon :** J10  
-**À examiner :** Avancement des notebooks, qualité des données, difficultés récurrentes, autonomie Python et priorités pour J11–J15.
+**Statut :** À valider avant passage au J7.
