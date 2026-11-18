@@ -124,3 +124,34 @@
 - `outputs/figures/j06_statistiques_descriptives.csv`
 - `outputs/figures/j06_observations_atypiques.csv`
 
+
+
+### J7 — Corrélations et analyse territoriale
+
+**Travaux :**
+- Analyse bivariée entre vieillissement et diabète.
+- Calcul des corrélations Pearson et Spearman.
+- Création d'un scatter plot interactif Plotly.
+- Construction d'une heatmap des corrélations.
+- Analyse de sensibilité concernant Mayotte et la Guyane.
+
+**Résultat vérifié :**
+- Départements analysés : 101.
+- Coefficient de corrélation de Pearson vieillissement–diabète : **0.31**
+- Coefficient de corrélation de Spearman vieillissement–diabète : **0.341**.
+- Visualisations réalisées : 2.
+
+**À valider :**
+- Définition et unité de la prévalence CNAM.
+- Couverture géographique et valeurs manquantes.
+- Stabilité des corrélations selon le périmètre.
+- Interprétation scientifique sans causalité abusive.
+- Reproductibilité des exports.
+
+**Preuve :**
+- notebooks/J07_correlations_territoriales.ipynb
+- outputs/figures/j07_scatter_diabete_vieillissement.html
+- outputs/figures/j07_heatmap_correlations.html
+- outputs/tables/j07_matrice_spearman.csv
+- outputs/tables/j07_sensibilite_territoires.csv
+
