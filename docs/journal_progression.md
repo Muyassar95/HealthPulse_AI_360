@@ -155,3 +155,38 @@
 - outputs/tables/j07_matrice_spearman.csv
 - outputs/tables/j07_sensibilite_territoires.csv
 
+---
+
+### J8 — Cartographie interactive et intelligence territoriale
+
+**Travaux :**
+- Acquisition des contours départementaux officiels de 2024 au format GeoJSON.
+- Exploration des géométries et harmonisation des codes départementaux CNAM–INSEE.
+- Contrôle des correspondances entre les observations sanitaires et les contours géographiques.
+- Construction de cartes choroplèthes interactives avec Plotly : vieillissement démographique et prévalence brute du diabète.
+- Préparation d'un zoom sur l'Île-de-France et d'une comparaison des départements ultramarins.
+- Introduction à GeoPandas pour la manipulation des données géographiques.
+
+**Résultat vérifié :**
+- Nombre de départements cartographiés : 101.
+- Nombre de géométries sans correspondance : 6.
+- Carte démographique opérationnelle : Oui.
+- Carte sanitaire opérationnelle :Oui.
+- Zoom francilien et visualisation ultramarine : Oui.
+
+**Validés :**
+- Exhaustivité des correspondances géographiques.
+- Cohérence des codes départementaux et des projections.
+- Lisibilité des cartes et traitement des valeurs manquantes.
+- Définition, unité et comparabilité de la prévalence CNAM.
+- Présentation adaptée des départements ultramarins.
+- Reproductibilité des exports HTML.
+
+**Preuve :**
+- `notebooks/J08_cartographie_departements.ipynb`
+- `data/raw/geographie/departements_2024_100m.geojson`
+- `outputs/figures/j08_carte_vieillissement_2024.html`
+- `outputs/figures/j08_carte_diabete_2024.html`
+- `outputs/figures/j08_carte_ile_de_france.html`
+- `outputs/figures/j08_comparaison_drom.html`
+
