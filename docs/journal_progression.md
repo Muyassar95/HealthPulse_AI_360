@@ -193,7 +193,7 @@
 
 ---
 
-## J09 — Cartographie avancée et comparaison territoriale
+## J9 — Cartographie avancée et comparaison territoriale
 
 **Projet :** HealthPulse AI 360  
 **Thématique :** Geospatial Analytics, Data Visualization & Territorial Intelligence
