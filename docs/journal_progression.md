@@ -190,3 +190,40 @@
 - `outputs/figures/j08_carte_ile_de_france.html`
 - `outputs/figures/j08_comparaison_drom.html`
 
+
+---
+
+## J09 — Cartographie avancée et comparaison territoriale
+
+**Projet :** HealthPulse AI 360  
+**Thématique :** Geospatial Analytics, Data Visualization & Territorial Intelligence
+
+**Travaux :**
+- Consolidation des données départementales CNAM–INSEE de 2024 et vérification de leur correspondance avec les contours GeoJSON.
+- Construction d'une carte choroplèthe nationale avec encarts pour les cinq départements ultramarins.
+- Harmonisation des échelles de couleurs pour comparer les territoires sur un même indicateur.
+- Développement d'un comparateur Plotly permettant de sélectionner les indicateurs démographiques et sanitaires.
+- Agrégation des populations INSEE par région et calcul des proportions régionales de personnes âgées de 60 ans ou plus.
+- Vérification des observations franciliennes et amélioration des infobulles cartographiques.
+
+**Résultat vérifié :**
+- Départements présents dans la base : 101.
+- Géométries correctement associées : 101.
+- DROM représentés : Oui.
+- Carte nationale interactive : Oui.
+- Comparateur multi-indicateurs : Oui.
+- Tableau régional : Oui.
+
+**À valider :**
+- Exhaustivité de la couverture géographique, notamment ultramarine.
+- Cohérence des projections, des légendes et des échelles de couleurs.
+- Couverture complète des départements lors des agrégations régionales.
+- Définition et comparabilité des indicateurs sanitaires CNAM.
+- Reproductibilité des graphiques et des exports HTML.
+
+**Preuve :**
+- `notebooks/J09_cartographie_avancee.ipynb`
+- `outputs/figures/j09_carte_france_drom.html`
+- `outputs/figures/j09_comparateur_indicateurs.html`
+- `outputs/figures/j09_comparaison_regions.html`
+- `outputs/tables/j09_indicateurs_regionaux.csv`
